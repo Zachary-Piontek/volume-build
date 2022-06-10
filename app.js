@@ -1,15 +1,20 @@
+/*
 
-// state
+let volumeLevel = 10;
 
-
-// component
-    // define and grab DOM elements
-    // display functions
-    // subscribe to events
-        // event handlers - what needs to happen?
-        // logic and calculations
-        // state update
-        // re-display components
+// attempted older method for fun
 
 
-// page load actions
+function volumeControlUp() {
+    showVolume(volumeLevel++);
+}
+
+function volumeControlDown() {
+    showVolume(volumeLevel--);
+}
+
+function showVolume(Vol) {
+    document.getElementById('volume-level').innerHTML = Vol;
+}
+
+*/
